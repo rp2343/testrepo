@@ -55,7 +55,7 @@
     }
   },
   "variables": {
-    "scriptsBaseUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/haproxy-redundant-floatingip-ubuntu/",
+    "scriptsBaseUrl": "https://raw.githubusercontent.com/rp2343/tesrepo/master/haproxy",
     "storageAccountName": "[concat(uniqueString(resourceGroup().id), 'haproxysa')]",
     "numberOfHAproxyInstances": 2,
     "masterHAproxyInstanceIndex": 0,

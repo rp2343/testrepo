@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "adminuser"
+    },
+    "sshKeyData": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDrpKpKx+/ndiGhXy1J+iHaWxZl0BBRdGEAx5f5XVXRB5+d3sO71kTqw2wCPm8bdN0nU2x0eTC9iq5ALuxMcAJOVyzH2R3k+IByD8OYub6ZtCBlpsxtvw4tU0Nr1xcLe8FI7v9x9eCjFNFmnhQWXUCxH8DprQcUqeiC/tAidw0Yh/oCtFH12jCQ9mJLl0HWe0uTZ0kJXHAL2wsR/Kfqwx7sLyKREhGIZPDPhr/aW4owajD569IwnoJng/nQkMASBLsnTnd2+IBoaapKRM4Zy61dT6AZBJRD8mjVM4wbCXXa7VK/fyIZE2H0HMJWdOoT/TxzHQdtEewbLp1CT0d6y/n testuser@rpatilvm1"
+    },
+    "lbDNSLabelPrefix": {
+      "value": "raphap"
+    }
+  }
+}
