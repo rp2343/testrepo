@@ -1,8 +1,9 @@
 #!/bin/bash
 
-vmname=`hostname -f`
+sudo vmname=`hostname -f`
 sudo add-apt-repository universe
-apt update -y
-debconf-set-selections <<< "postfix postfix/mailname string $vname"
-debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Site'"
-apt-get install -y mailutils
+sudo apt update -y
+sudo debconf-set-selections <<< "postfix postfix/mailname string $vname"
+sudo debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Site'"
+sudo apt update -y
+sudo apt-get install -y mailutils
